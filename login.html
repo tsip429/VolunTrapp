@@ -1,0 +1,44 @@
+<html>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
+	<script src="https://cdn.firebase.com/js/client/1.0.19/firebase.js"></script>
+	<script type="text/javascript" src="Users.js"></script>
+<head>
+	<title> VolunTrapp </title>
+	<style>
+		#logo{
+			padding-top: 30px;
+			padding-left: 10px;
+		}
+		#firstpage{
+			width:600px;
+			height:200px;
+		}
+
+		
+		</style>
+</head>
+
+<body style="height:800px;width:800px">
+	<div data-role = "page" id = "firstPage" >
+		
+		<h1><img src = "http://wowtrending.com/wp-content/uploads/cute-dog-pictures-2.jpg" id = "logo" width="150" height="150">VolunTrapp</h1>
+		<form>
+		<label for="text-6"></label>
+     	<input type="text" name="text-6" id="Username" value="" placeholder="username">
+     	<input type="password" id="Password" name="pwd">
+		</form>
+		<div data-role = "main">
+			<!--a class = "ui-btn" href="#" id="LoginButton">login</a-->
+			<button id="LoginButton">login</button>
+		</div>
+
+		<div data-role = "main">
+			<a class = "ui=btn" href="#createAnAccount">create an account</a>
+		</div>
+
+
+		
+	</div>
+</body>
